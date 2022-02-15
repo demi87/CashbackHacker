@@ -12,14 +12,9 @@ repositories {
 }
 
 dependencies {
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
+    testImplementation 'org.testng:testng:7.5'
 }
 
-// пример с одной зависиомстью
-// dependencies {
-//    testImplementation 'org.junit.jupiter:junit-jupiter:5.7.0'
-// }
-
 test {
-    useJUnitPlatform()
+    useTestNG()
 }
